@@ -5,3 +5,18 @@ From ast import IfExp
 Import sys
 Import fire
 Import questionary
+import alpaca_trade_api as tradeapi
+
+#Alapca 
+# Set the variables for the Alpaca API and secret keys
+alpaca_api_key = os.getenv('Alpaca_API_Key')
+alpaca_secret_key = os.getenv('Alpaca_Secret_Key')
+
+display(type(alpaca_api_key))
+display(type(alpaca_secret_key))
+
+# Create the Alpaca tradeapi.REST object
+alpaca = tradeapi.REST(
+    alpaca_api_key,
+    alpaca_secret_key,
+    api_version='V2')
