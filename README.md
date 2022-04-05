@@ -1,5 +1,1 @@
-# Project1
-
-Brian
-
-ha
+# MEME STOCKS
