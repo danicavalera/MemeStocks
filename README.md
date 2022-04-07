@@ -1,1 +1,2 @@
 # MEME STOCKS
+(put hypothesis)
