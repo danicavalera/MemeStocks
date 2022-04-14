@@ -22,7 +22,7 @@ The project uses python 3.7 with the following packages:
 
 * [requests](https://docs.python-requests.org/en/latest/) - For sending HTTP/1.1 requests
 
-* [panel] (https://panel.holoviz.org/) - To create custom interactive web apps and dashboards by connecting user-defined widgets to plots, images, tables, or text.
+* [panel](https://panel.holoviz/org/) - To create custom interactive web apps and dashboards by connecting user-defined widgets to plots, images, tables, or text.
 
 * [os](https://docs.python.org/3/library/os.html) - os module provides a portable way of using operating system dependent functionality
 
