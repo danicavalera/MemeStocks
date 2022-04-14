@@ -71,7 +71,7 @@ import matplotlib.pyplot as plt
 
 To run the financial tool program, simply clone the repository,  establish API keys for alpaca, and go through the written steps in the *.ipynb file.
 
-Here is a screen shot of the financial analysis
+Here is a screen shot of one of the results from our financial analysis
 ![Screenshot](image.jpg)
 
 
