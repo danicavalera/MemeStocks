@@ -55,6 +55,8 @@ from MCForecastTools import MCSimulation
 
 To run the financial tool program, simply clone the repository,  establish API keys for alpaca, and go through the written steps in the *.ipynb file.
 
+Here is a screen shot of the financial analysis
+![Screenshot](image.jpg)
 ---
 
 ## Contributors
