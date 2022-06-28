@@ -16,7 +16,13 @@ The project uses python 3.7 with the following packages:
 
 * [pandas](https://pandas.pydata.org/) - For providing data analysis and manipulation tool built on top of the Python programming language
 
+* [numpy](https://numpy.org/doc/stable/) - It is a fundamental package for scientific computing in Python
+
+* [hvplot](https://hvplot.holoviz.org/) - Provides an alternative for the static plotting API provided by Pandas and other libraries
+
 * [requests](https://docs.python-requests.org/en/latest/) - For sending HTTP/1.1 requests
+
+* [panel](https://panel.holoviz.org/) - To create custom interactive web apps and dashboards by connecting user-defined widgets to plots, images, tables, or text.
 
 * [os](https://docs.python.org/3/library/os.html) - os module provides a portable way of using operating system dependent functionality
 
@@ -45,6 +51,16 @@ import pandas as pd
 from dotenv import load_dotenv
 import alpaca_trade_api as tradeapi
 from MCForecastTools import MCSimulation
+from alpaca_trade_api import TimeFrame
+import datetime
+from dateutil.relativedelta import relativedelta
+import hvplot.pandas
+import numpy as np
+import panel as pn
+from panel.interact import interact
+from panel import widgets
+import matplotlib.pyplot as plt
+
 
 %matplotlib inline
 ```
@@ -54,6 +70,10 @@ from MCForecastTools import MCSimulation
 ## Usage
 
 To run the financial tool program, simply clone the repository,  establish API keys for alpaca, and go through the written steps in the *.ipynb file.
+
+Here is a screen shot of one of the results from our financial analysis
+![Screenshot](image.jpg)
+
 
 ---
 
